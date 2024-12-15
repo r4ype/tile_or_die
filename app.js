@@ -58,6 +58,7 @@ document.addEventListener("keyup", (e) => {
     moveDown();
     setTwo();
   }
+  document.getElementById("score").innerText = score;
 });
 
 //move function
