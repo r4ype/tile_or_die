@@ -25,6 +25,9 @@ function loadGame() {
       document.getElementById("board").append(tile);
     }
   }
+
+  setTwo();
+  setTwo();
 }
 
 // tile update
