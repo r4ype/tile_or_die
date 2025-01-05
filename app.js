@@ -45,16 +45,16 @@ function updateTile(tile, num) {
 
 // event listeners
 document.addEventListener("keyup", (e) => {
-  if (e.code == "ArrowLeft" || e.code == "KeyA") {
+  if (e.code == "ArrowLeft") {
     moveLeft();
     setTwo();
-  } else if (e.code == "ArrowRight" || e.code == "KeyD") {
+  } else if (e.code == "ArrowRight") {
     moveRight();
     setTwo();
-  } else if (e.code == "ArrowUp" || e.code == "KeyW") {
+  } else if (e.code == "ArrowUp") {
     moveUp();
     setTwo();
-  } else if (e.code == "ArrowDown" || e.code == "KeyS") {
+  } else if (e.code == "ArrowDown") {
     moveDown();
     setTwo();
   }
